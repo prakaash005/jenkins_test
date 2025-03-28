@@ -38,7 +38,7 @@ pipeline {
         stage('test') {
            
             steps {
-                sh "echo testing"
+                bat "echo testing"
             }
         }
     }
